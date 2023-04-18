@@ -1,0 +1,55 @@
+.centrado {
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  font-family:sans-serif;
+  background-color: rgb(146, 127, 255);
+}
+
+.imagenMediana{
+  height: 100px;
+  width: 200px;
+}
+
+.div1 {
+  border: 5px outset blue;
+  background-color: lightblue;
+  text-align: center;
+}
+
+body {
+  background-image:  url("https://cdn.wallpapersafari.com/64/15/fEY7w1.jpg");
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: 1800px;
+  background-attachment: fixed;
+}
+
+body:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
